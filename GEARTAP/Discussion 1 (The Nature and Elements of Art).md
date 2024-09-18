@@ -10,7 +10,11 @@
 ![[Pasted image 20240916130531.png]]
 
 
-![[jobs_700.webp]]
+I. 
+In my first initial glance, what I see are people that are groovy. Dancing, maybe a bit weird, but dancing. The lines suggest a human anatomy, the colors suggest vibrancy and upbeat liveliness. However, after careful a more careful observation, my opinion has changed. The lines are stiff and rigid. Even the curves are not gentle. The expression on the main object, expressionless, not suggestive of happiness or spontaneity. The colors are not simply vibrant additions but more of indicators of correctness and incorrectness. All of these contribute to the work that instead of seeing a spontaneous burst of creativity, it is a practiced set of instructions, some followed, some not. I do sincerely believe that I am suggested an art that portrays a circus performance, or that of a practice for a circus performance. 
+
+II. 
+![[SteveJobsjunk.jpg]]
 
 
 - Photo/image of the work
