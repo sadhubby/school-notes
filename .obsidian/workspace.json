@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "0876ba3a8aee7d98",
+        "id": "6b3e51d3dbdc9646",
         "type": "tabs",
         "children": [
           {
-            "id": "8ccf7081877469a9",
+            "id": "60b240773d2e7bfa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GEARTAP/Discussion 1 (The Nature and Elements of Art).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d17018d4be8895e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Von Neumann Architecture.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "601063842f2e86a5",
@@ -99,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Von Neumann Architecture.md",
+                "file": "CSARCH2/Module Review/(4) 2x vs 10y Ambiguity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Von Neumann Architecture.md",
+                "file": "CSARCH2/Module Review/(4) 2x vs 10y Ambiguity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Von Neumann Architecture.md"
+                "file": "CSARCH2/Module Review/(4) 2x vs 10y Ambiguity.md"
               }
             }
           },
@@ -148,6 +130,14 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "34feadffe6eb25f5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
               "state": {}
             }
           }
@@ -172,35 +162,41 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5d17018d4be8895e",
+  "active": "0569034f4fdc6f95",
   "lastOpenFiles": [
-    "Pasted image 20240924173439.png",
-    "Pasted image 20240924173210.png",
-    "Pasted image 20240924173208.png",
-    "Pasted image 20240924173200.png",
-    "Pasted image 20240924173056.png",
-    "Pasted image 20240924173054.png",
-    "Pasted image 20240924172711.png",
-    "Pasted image 20240924172708.png",
+    "CSARCH2/Module Review/Pasted image 20240924224110.png",
+    "CSARCH2/Module Review/(3) Binary Data Organization.md",
+    "CSARCH2/Module Review/(4) 2x vs 10y Ambiguity.md",
+    "Excalidraw/numerical system base conversion.excalidraw.md",
+    "CSARCH2/Module Review/(2) numerical system base conversion.excalidraw.png",
+    "CSARCH2/Module 1 - Introduction to Computer Organization/Von Neumann Architecture.md",
+    "Excalidraw/Untitled.canvas",
+    "CSARCH2/Module Review/(1) Positional Number System.excalidraw.png",
+    "CSARCH2/Module Review",
+    "Excalidraw/Positional Number System.excalidraw.md",
+    "CSARCH2/Module 1 - Introduction to Computer Organization/Images/Pasted image 20240924132309.png",
     "CSARCH2/Module 1 - Introduction to Computer Organization/Introduction to Computer Organization and Architecture.md",
+    "CSARCH2/Module 1 - Introduction to Computer Organization/Images",
+    "CSARCH2/Module 1 - Introduction to Computer Organization/Images/Pasted image 20240924172708.png",
+    "GEARTAP/Discussion 1 (The Nature and Elements of Art).md",
+    "Excalidraw",
+    "CSARCH2/Module 1 - Introduction to Computer Organization/Images/Pasted image 20240924173439.png",
+    "CSARCH2/Module 1 - Introduction to Computer Organization/Images/Pasted image 20240924173210.png",
+    "CSARCH2/Module 1 - Introduction to Computer Organization/Images/Pasted image 20240924173208.png",
+    "CSARCH2/Module 1 - Introduction to Computer Organization/Images/Pasted image 20240924173200.png",
+    "CSARCH2/Module 1 - Introduction to Computer Organization/Images/Pasted image 20240924173056.png",
+    "CSARCH2/Module 1 - Introduction to Computer Organization/Images/Pasted image 20240924173054.png",
     "GEARTAP/GEARTAP Discussion - 09-12.md",
-    "Von Neumann Architecture.md",
     "Untitled Kanban.md",
-    "Pasted image 20240924132447.png",
-    "Pasted image 20240924132309.png",
     "GEARTAP/Discussion 2.md",
-    "GEARTAP/Discussion 1/SteveJobsjunk.jpg",
     "GEARTAP/Discussion 1",
     "CSARCH2/Module 1 - Introduction to Computer Organization",
-    "GEARTAP/Discussion 1 (The Nature and Elements of Art).md",
     "LBYARCH",
     "LCFILIB",
     "GEARTAP",
     "STADVDB",
     "CSARCH2",
-    "CSSWENG",
     "agsdjigasjdg.md",
-    "year3-term1-notes",
     "Welcome.md"
   ]
 }
