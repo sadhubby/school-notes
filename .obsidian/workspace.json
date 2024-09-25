@@ -13,7 +13,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-25 23.11.13.excalidraw.md"
+                "file": "CSARCH2/(5) Module 4/Rounding.excalidraw.md"
               }
             }
           }
@@ -84,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-25 23.11.13.excalidraw.md",
+                "file": "CSARCH2/(5) Module 4/Rounding.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-25 23.11.13.excalidraw.md",
+                "file": "CSARCH2/(5) Module 4/Rounding.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-25 23.11.13.excalidraw.md"
+                "file": "CSARCH2/(5) Module 4/Rounding.excalidraw.md"
               }
             }
           },
@@ -165,13 +165,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "60e0eaec21aca105",
+  "active": "0569034f4fdc6f95",
   "lastOpenFiles": [
-    "CSARCH2/(5) Module 4/Excalidraw/Rounding.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-25 23.11.13.excalidraw.md",
-    "Excalidraw",
+    "CSARCH2/(5) Module 4/(1) Rounding.excalidraw.png",
+    "CSARCH2/(5) Module 4/(2) FP Arithmetic.excalidraw.png",
+    "CSARCH2/(5) Module 4/FP Arithmetic.excalidraw.md",
+    "Pasted Image 20240925233027_562.png",
+    "CSARCH2/(5) Module 4/Rounding.excalidraw.md",
+    "CSARCH2/(5) Module 4/Excalidraw 1",
     "Untitled.md",
-    "CSARCH2/(5) Module 4/Excalidraw/Rounding.excalidraw.png",
     "Pasted Image 20240925230708_291.png",
     "CSARCH2/(4) Module 3/Special Cases.excalidraw.png",
     "CSARCH2/(5) Module 4",
@@ -189,10 +191,8 @@
     "CSARCH2/(2) Module Review/Pasted image 20240924224110.png",
     "CSARCH2/(2) Module Review/(3) Binary Data Organization.md",
     "CSARCH2/(2) Module Review/numerical system base conversion.excalidraw.md",
-    "CSARCH2/(2) Module Review/(2) numerical system base conversion.excalidraw.png",
     "CSARCH2/(1) Module 1 - Introduction to Computer Organization/Von Neumann Architecture.md",
     "CSARCH2/(5) Module 4/Excalidraw/Untitled.canvas",
-    "CSARCH2/(2) Module Review/(1) Positional Number System.excalidraw.png",
     "CSARCH2/(2) Module Review",
     "CSARCH2/(2) Module Review/Positional Number System.excalidraw.md",
     "CSARCH2/(1) Module 1 - Introduction to Computer Organization/Introduction to Computer Organization and Architecture.md",
