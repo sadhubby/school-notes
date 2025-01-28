@@ -1,56 +1,41 @@
 {
   "main": {
-    "id": "75648b9e18f0b4ad",
+    "id": "a39b01581c57f6ca",
     "type": "split",
     "children": [
       {
-        "id": "5667d7ada94e389c",
+        "id": "cf464789804d192e",
         "type": "tabs",
         "children": [
           {
-            "id": "9898b9d9caea0ea6",
+            "id": "0a9bd09e587b5217",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SOLLPM1 1-25.md",
+                "file": "Untitled.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "SOLLPM1 1-25"
-            }
-          },
-          {
-            "id": "e4df86f46834979f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DSGNPAT - 01-27.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DSGNPAT - 01-27"
+              "title": "Untitled"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d85f123fb7dd7764",
+    "id": "7fe19abab4a87b1e",
     "type": "split",
     "children": [
       {
-        "id": "6365dbdf31613036",
+        "id": "e82038ce45e25ebc",
         "type": "tabs",
         "children": [
           {
-            "id": "9ddf434c62c39305",
+            "id": "0569034f4fdc6f95",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,7 +47,7 @@
             }
           },
           {
-            "id": "707577fc15f94b32",
+            "id": "41a96154157d92b2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +64,7 @@
             }
           },
           {
-            "id": "551cd3b29b01221a",
+            "id": "91c8cfbf95e7c2b9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -92,23 +77,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 300
   },
   "right": {
-    "id": "69e0da04120ec172",
+    "id": "601063842f2e86a5",
     "type": "split",
     "children": [
       {
-        "id": "8b9ee8210b65637b",
+        "id": "c88d3d033a1c83c7",
         "type": "tabs",
         "children": [
           {
-            "id": "80a7c12f8e1d1603",
+            "id": "2dfe37eb01c65332",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSGNPAT 1-16.md",
+                "file": "CSARCH2/(5) Module 4/Rounding.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,25 +103,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DSGNPAT 1-16"
+              "title": "Backlinks for Rounding.excalidraw"
             }
           },
           {
-            "id": "30b8cbe234c469b6",
+            "id": "04f26bd79d35f2ea",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSGNPAT 1-16.md",
+                "file": "CSARCH2/(5) Module 4/Rounding.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from DSGNPAT 1-16"
+              "title": "Outgoing links from Rounding.excalidraw"
             }
           },
           {
-            "id": "3261209f2c4ef030",
+            "id": "74aa2e2979cfb7f8",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -149,25 +134,35 @@
             }
           },
           {
-            "id": "901c1548027500de",
+            "id": "d9f719e1aa0926a1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSGNPAT 1-16.md"
+                "file": "CSARCH2/(5) Module 4/Rounding.excalidraw.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of DSGNPAT 1-16"
+              "title": "Outline of Rounding.excalidraw"
             }
           },
           {
-            "id": "5b6d998b768c1927",
+            "id": "cd1858108593b5a0",
             "type": "leaf",
             "state": {
               "type": "git-view",
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "34feadffe6eb25f5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -179,65 +174,66 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-kanban:Create new board": false,
       "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e4df86f46834979f",
+  "active": "0a9bd09e587b5217",
   "lastOpenFiles": [
-    "SOLLPM1 1-25.md",
-    "DSGNPAT - 01-27.md",
-    "1713533603690.png",
-    "_aejaz2012_270217015636.png",
-    "Kotters-8-Step-Change-Model-Diagram-Mutomorro.webp",
-    "036gEvm6p_B6Lct9V.png",
-    "Excalidraw/Drawing 2025-01-25 09.17.15.excalidraw.md",
-    "Excalidraw",
-    "DSGNPAT - 1-23.md",
-    "SOLLPM1 1-18.md",
-    "DSGNPAT 1-16.md",
-    "temporary term2 notes",
-    "lscs-work/sahdjabsd.md",
-    "lscs-work/README.md",
-    "lscs-work",
-    "CSARCH2/(4) Module 3/Special Cases.excalidraw.png",
+    "Year 3 - Term 2/SOLLPM1/036gEvm6p_B6Lct9V.png",
     "Untitled.md",
-    "Pasted Image 20240925233027_562.png",
-    "Pasted Image 20240925230708_291.png",
-    "Pasted Image 20240925131345_440.png",
-    "CSARCH2/(5) Module 4/Rounding.excalidraw.md",
-    "CSARCH2/(5) Module 4/FP Arithmetic.excalidraw.md",
-    "CSARCH2/(5) Module 4/(2) FP Arithmetic.excalidraw.png",
-    "CSARCH2/(5) Module 4/(1) Rounding.excalidraw.png",
-    "CSARCH2/(5) Module 4",
-    "CSARCH2/(4) Module 3/Special Cases.excalidraw.md",
-    "CSARCH2/(4) Module 3/Single Precision and Double Precision.excalidraw.md",
-    "CSARCH2/(4) Module 3",
-    "CSARCH2/(3) Module 2/Integer Representation.excalidraw.md",
-    "CSARCH2/(3) Module 2/Integer Arithmetic.excalidraw.md",
-    "CSARCH2/(3) Module 2",
-    "CSARCH2/(2) Module Review/numerical system base conversion.excalidraw.md",
-    "CSARCH2/(2) Module Review/Positional Number System.excalidraw.md",
-    "CSARCH2/(2) Module Review/(4) 2x vs 10y Ambiguity.md",
-    "CSARCH2/(2) Module Review/(3) Binary Data Organization.md",
-    "CSARCH2/(2) Module Review",
-    "CSARCH2/(1) Module 1 - Introduction to Computer Organization/Von Neumann Architecture.md",
-    "CSARCH2/(1) Module 1 - Introduction to Computer Organization/Introduction to Computer Organization and Architecture.md",
-    "CSARCH2/(1) Module 1 - Introduction to Computer Organization/Images",
-    "CSARCH2/(1) Module 1 - Introduction to Computer Organization",
+    "Year 3 - Term 2/DSGNPAT/DSGNPAT - 1-23.md",
+    "Year 3 - Term 2/SOLLPM1",
+    "Excalidraw/Drawing 2025-01-25 09.17.15.excalidraw.md",
+    "Year 3 - Term 2/DSGNPAT",
+    "Year 3 - Term 2",
+    "Year 3 - Term 2/SOLLPM1/1713533603690.png",
+    "csg-work",
+    "Year 3 - Term 1",
+    "_aejaz2012_270217015636.png",
+    "Year 3 - Term 1/CSARCH2/Pasted Image 20240925131345_440.png",
+    "Year 3 - Term 2/SOLLPM1/Kotters-8-Step-Change-Model-Diagram-Mutomorro.webp",
+    "Year 3 - Term 1/CSARCH2/Pasted Image 20240925230708_291.png",
+    "Year 3 - Term 1/CSARCH2/Pasted Image 20240925233027_562.png",
     "Untitled Kanban.md",
-    "Von Neumann Architecture.md",
-    "CSARCH2/Module 1 - Introduction to Computer Organization/Introduction to Computer Organization and Architecture.md",
-    "CSARCH2/Module 1 - Introduction to Computer Organization",
-    "GEARTAP/Discussion 2.md",
-    "GEARTAP/GEARTAP Discussion - 09-12.md"
+    "lscs-work",
+    "Year 3 - Term 2/SOLLPM1/SOLLPM1 1-25.md",
+    "Year 3 - Term 2/SOLLPM1/SOLLPM1 1-18.md",
+    "Excalidraw",
+    "Year 3 - Term 2/DSGNPAT/DSGNPAT 1-16.md",
+    "Year 3 - Term 2/DSGNPAT/DSGNPAT - 01-27.md",
+    "Year 3 - Term 1/CSARCH2/(5) Module 4/(1) Rounding.excalidraw.png",
+    "Year 3 - Term 1/CSARCH2/(5) Module 4/(2) FP Arithmetic.excalidraw.png",
+    "Year 3 - Term 1/CSARCH2/(5) Module 4/FP Arithmetic.excalidraw.md",
+    "Year 3 - Term 1/CSARCH2/(5) Module 4/Rounding.excalidraw.md",
+    "CSARCH2/(5) Module 4/Excalidraw 1",
+    "Year 3 - Term 1/CSARCH2/(4) Module 3/Special Cases.excalidraw.png",
+    "Year 3 - Term 1/CSARCH2/(5) Module 4",
+    "Year 3 - Term 1/CSARCH2/(4) Module 3/Special Cases.excalidraw.md",
+    "Year 3 - Term 1/CSARCH2/(4) Module 3",
+    "Year 3 - Term 1/CSARCH2/(4) Module 3/Single Precision and Double Precision.excalidraw.md",
+    "Year 3 - Term 1/CSARCH2/(3) Module 2/Integer Representation.excalidraw.md",
+    "Year 3 - Term 1/CSARCH2/(3) Module 2/Integer Arithmetic.excalidraw.md",
+    "Year 3 - Term 1/CSARCH2/(2) Module Review/(4) 2x vs 10y Ambiguity.md",
+    "Year 3 - Term 1/CSARCH2/(2) Module Review/(3) Binary Data Organization.md",
+    "Year 3 - Term 1/CSARCH2/(2) Module Review/numerical system base conversion.excalidraw.md",
+    "Year 3 - Term 1/CSARCH2/(1) Module 1 - Introduction to Computer Organization/Von Neumann Architecture.md",
+    "CSARCH2/(5) Module 4/Excalidraw/Untitled.canvas",
+    "Year 3 - Term 1/CSARCH2/(2) Module Review/Positional Number System.excalidraw.md",
+    "Year 3 - Term 1/CSARCH2/(1) Module 1 - Introduction to Computer Organization/Introduction to Computer Organization and Architecture.md",
+    "Year 3 - Term 1/GEARTAP/Discussion 1 (The Nature and Elements of Art).md",
+    "Year 3 - Term 1/GEARTAP/GEARTAP Discussion - 09-12.md",
+    "Year 3 - Term 1/GEARTAP/Discussion 2.md",
+    "agsdjigasjdg.md",
+    "Welcome.md"
   ]
 }
