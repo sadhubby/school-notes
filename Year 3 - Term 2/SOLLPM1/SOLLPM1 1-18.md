@@ -26,11 +26,10 @@
 	   - scope
 	   - sustainability
 	   - risk
-- implementation of manage by exception provides for efficient use of senior management time
-5. focus on products
+	- implementation of manage by exception provides for efficient use of senior management time
+1. focus on products
 	- helps manage scope creep
-
-6. tailor to suit the project
+2. tailor to suit the project
 	- tailor to suit size complexity
 	- project manager is responsible for tailoring and will make recommendations having consulted relevant lessons and standards
 	- project initiation documentation.
