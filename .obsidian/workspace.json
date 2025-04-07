@@ -1,50 +1,52 @@
 {
   "main": {
-    "id": "75648b9e18f0b4ad",
+    "id": "a39b01581c57f6ca",
     "type": "split",
     "children": [
       {
-        "id": "5667d7ada94e389c",
+        "id": "cf464789804d192e",
         "type": "tabs",
         "children": [
           {
-            "id": "9898b9d9caea0ea6",
+            "id": "47f2ace59b973d02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Year 3 - Term 2/SOLLPM1/SOLLPM1 1-18.md",
+                "file": "Year 3 - Term 2/DSGNPAT/DSGNPAT - 1-23.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SOLLPM1 1-18"
+              "title": "DSGNPAT - 1-23"
             }
           },
           {
-            "id": "1dd99cf4a97f9602",
+            "id": "2f2a4d976f405e82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Practice.md",
+                "file": "SOLLPM1-2-15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Practice"
+              "title": "SOLLPM1-2-15"
             }
           },
           {
-            "id": "78ebf82a42df4994",
+            "id": "bdc339c37f0a2dff",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.4"
+                "file": "STINTSY-NaiveBayes.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
+              "icon": "lucide-file",
+              "title": "STINTSY-NaiveBayes"
             }
           }
         ],
@@ -54,15 +56,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d85f123fb7dd7764",
+    "id": "7fe19abab4a87b1e",
     "type": "split",
     "children": [
       {
-        "id": "6365dbdf31613036",
+        "id": "e82038ce45e25ebc",
         "type": "tabs",
         "children": [
           {
-            "id": "9ddf434c62c39305",
+            "id": "0569034f4fdc6f95",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -75,7 +77,7 @@
             }
           },
           {
-            "id": "707577fc15f94b32",
+            "id": "41a96154157d92b2",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -92,7 +94,7 @@
             }
           },
           {
-            "id": "551cd3b29b01221a",
+            "id": "91c8cfbf95e7c2b9",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -105,23 +107,24 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "69e0da04120ec172",
+    "id": "601063842f2e86a5",
     "type": "split",
     "children": [
       {
-        "id": "8b9ee8210b65637b",
+        "id": "c88d3d033a1c83c7",
         "type": "tabs",
         "children": [
           {
-            "id": "80a7c12f8e1d1603",
+            "id": "2dfe37eb01c65332",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DSGNPAT 1-16.md",
+                "file": "CSARCH2/(5) Module 4/Rounding.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,25 +134,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DSGNPAT 1-16"
+              "title": "Backlinks for Rounding.excalidraw"
             }
           },
           {
-            "id": "30b8cbe234c469b6",
+            "id": "04f26bd79d35f2ea",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DSGNPAT 1-16.md",
+                "file": "CSARCH2/(5) Module 4/Rounding.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from DSGNPAT 1-16"
+              "title": "Outgoing links from Rounding.excalidraw"
             }
           },
           {
-            "id": "3261209f2c4ef030",
+            "id": "74aa2e2979cfb7f8",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -162,25 +165,38 @@
             }
           },
           {
-            "id": "901c1548027500de",
+            "id": "d9f719e1aa0926a1",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "DSGNPAT 1-16.md"
+                "file": "STINTSY.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DSGNPAT 1-16"
+              "title": "Outline of STINTSY"
             }
           },
           {
-            "id": "5b6d998b768c1927",
+            "id": "cd1858108593b5a0",
             "type": "leaf",
             "state": {
               "type": "git-view",
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
+            }
+          },
+          {
+            "id": "34feadffe6eb25f5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -193,65 +209,66 @@
   "left-ribbon": {
     "hiddenItems": {
       "publish:Publish changes...": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-kanban:Create new board": false,
       "obsidian-git:Open Git source control": false,
+      "obsidian-kanban:Create new board": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "78ebf82a42df4994",
+  "active": "bdc339c37f0a2dff",
   "lastOpenFiles": [
-    "Year 3 - Term 2/SOLLPM1/SOLLPM1 1-18.md",
-    "Year 3 - Term 2/SOLLPM1/SOLLPM1 1-25.md",
-    "Practice.md",
-    "Code Smells Part 2.md",
-    "Year 3 - Term 2/SOLLPM1/Kotters-8-Step-Change-Model-Diagram-Mutomorro.webp",
-    "Year 3 - Term 2/SOLLPM1/1713533603690.png",
-    "Year 3 - Term 2/SOLLPM1/036gEvm6p_B6Lct9V.png",
-    "Year 3 - Term 2/DSGNPAT/DSGNPAT 1-16.md",
+    "Pasted image 20250408001445.png",
+    "Pasted image 20250408001433.png",
+    "Pasted image 20250407211743.png",
+    "Pasted image 20250407211357.png",
+    "Pasted image 20250407210851.png",
+    "Pasted image 20250407210522.png",
+    "Pasted image 20250407205826.png",
+    "SOLLPM1-2-15.md",
+    "STINTSY-NaiveBayes.md",
+    "Pasted image 20250215090654.png",
     "Year 3 - Term 2/DSGNPAT/DSGNPAT - 1-23.md",
+    "Code Smells Part 2.md",
     "Year 3 - Term 2/DSGNPAT/DSGNPAT - 01-27.md",
-    "Year 3 - Term 2/SOLLPM1",
-    "Year 3 - Term 2/DSGNPAT",
-    "Year 3 - Term 2",
-    "Year 3 - Term 1/GEARTAP/Discussion 1/SteveJobsjunk.jpg",
-    "Year 3 - Term 1/GEARTAP/Discussion 1/Pasted image 20240916130531.png",
-    "Year 3 - Term 1/GEARTAP/Discussion 1/Pasted image 20240916124600.png",
-    "Year 3 - Term 1/GEARTAP/Discussion 1/jobs_700.webp",
-    "Year 3 - Term 1/GEARTAP/Discussion 2.md",
-    "Year 3 - Term 1/GEARTAP/GEARTAP Discussion - 09-12.md",
-    "Year 3 - Term 1/GEARTAP/Discussion 1 (The Nature and Elements of Art).md",
-    "Year 3 - Term 1/GEARTAP/Discussion 1",
-    "Year 3 - Term 1/GEARTAP",
-    "Year 3 - Term 1/CSARCH2/Pasted Image 20240925233027_562.png",
-    "Year 3 - Term 1/CSARCH2/Pasted Image 20240925230708_291.png",
-    "Year 3 - Term 1/CSARCH2/Pasted Image 20240925131345_440.png",
-    "Year 3 - Term 1/CSARCH2/(5) Module 4/Rounding.excalidraw.md",
-    "Year 3 - Term 1/CSARCH2/(5) Module 4/FP Arithmetic.excalidraw.md",
-    "Year 3 - Term 1/CSARCH2/(5) Module 4",
-    "Year 3 - Term 1/CSARCH2/(4) Module 3/Special Cases.excalidraw.md",
-    "Year 3 - Term 1/CSARCH2/(4) Module 3/Single Precision and Double Precision.excalidraw.md",
-    "Year 3 - Term 1/CSARCH2/(4) Module 3",
-    "Year 3 - Term 1/CSARCH2/(3) Module 2/Integer Representation.excalidraw.md",
-    "Year 3 - Term 1/CSARCH2/(3) Module 2/Integer Arithmetic.excalidraw.md",
-    "Year 3 - Term 1/CSARCH2/(3) Module 2",
-    "Year 3 - Term 1/CSARCH2/(2) Module Review/numerical system base conversion.excalidraw.md",
-    "Year 3 - Term 1/CSARCH2/(2) Module Review/Positional Number System.excalidraw.md",
-    "Year 3 - Term 1/CSARCH2/(2) Module Review/(4) 2x vs 10y Ambiguity.md",
-    "Year 3 - Term 1/CSARCH2/(2) Module Review/(3) Binary Data Organization.md",
-    "Year 3 - Term 1/CSARCH2/(1) Module 1 - Introduction to Computer Organization/Von Neumann Architecture.md",
-    "Year 3 - Term 1/CSARCH2/(1) Module 1 - Introduction to Computer Organization/Introduction to Computer Organization and Architecture.md",
-    "Year 3 - Term 1/CSARCH2/(1) Module 1 - Introduction to Computer Organization/Images",
-    "Year 3 - Term 1/CSARCH2/(2) Module Review",
-    "Stages of Team Development.md",
+    "Year 3 - Term 2/DSGNPAT/DSGNPAT 1-16.md",
+    "Practice.md",
+    "Untitled.md",
+    "Year 3 - Term 2/STINTSY/Images/Pasted image 20250203165824.png",
+    "STINTSY.md",
+    "Year 3 - Term 2/STINTSY",
+    "Year 3 - Term 2/STINTSY/Images",
+    "Year 3 - Term 2/STINTSY/Images/Pasted image 20250203173644.png",
+    "Year 3 - Term 2/STINTSY/Images/Pasted image 20250203173308.png",
     "SOLLPM1 - For Presentation.md",
     "Collaboration and Co-Creation.md",
-    "CULTURE TYPES.md"
+    "Stages of Team Development.md",
+    "CULTURE TYPES.md",
+    "Year 3 - Term 2/SOLLPM1",
+    "Excalidraw/Drawing 2025-01-25 09.17.15.excalidraw.md",
+    "Year 3 - Term 2/DSGNPAT",
+    "Year 3 - Term 2",
+    "csg-work",
+    "Year 3 - Term 1",
+    "Untitled Kanban.md",
+    "lscs-work",
+    "Year 3 - Term 2/SOLLPM1/SOLLPM1 1-25.md",
+    "Year 3 - Term 2/SOLLPM1/SOLLPM1 1-18.md",
+    "Excalidraw",
+    "Year 3 - Term 1/CSARCH2/(5) Module 4/FP Arithmetic.excalidraw.md",
+    "Year 3 - Term 1/CSARCH2/(5) Module 4/Rounding.excalidraw.md",
+    "CSARCH2/(5) Module 4/Excalidraw 1",
+    "Year 3 - Term 1/CSARCH2/(4) Module 3/Special Cases.excalidraw.md",
+    "Year 3 - Term 1/CSARCH2/(4) Module 3/Single Precision and Double Precision.excalidraw.md",
+    "Year 3 - Term 1/CSARCH2/(3) Module 2/Integer Representation.excalidraw.md",
+    "Year 3 - Term 1/CSARCH2/(3) Module 2/Integer Arithmetic.excalidraw.md",
+    "Year 3 - Term 1/CSARCH2/(2) Module Review/(4) 2x vs 10y Ambiguity.md",
+    "Year 3 - Term 1/CSARCH2/(2) Module Review/(3) Binary Data Organization.md",
+    "CSARCH2/(5) Module 4/Excalidraw/Untitled.canvas"
   ]
 }
