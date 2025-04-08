@@ -107,6 +107,10 @@ $P(T | F) = \frac{P(X_{1} = \text{blank} | T) \times P(X_{2} = \text{blank} | T)
 We now just  compute the probability of the features <mark style="background: #ABF7F7A6;">independently</mark>
 Statistically speaking, this is wrong, but because of the naive assumption, we can still yield decent results.
 
+T = Truth Value
+F = Features
+
+So every independent feature probability is $P(\text{Feature} = \text{Observation} | \text{Truth Value})$
 #### Example 
 
 | **Student** | **Math Grade** | **Hours Studying**    | **ML Grade** |
@@ -133,22 +137,119 @@ So our Truth Value is<mark style="background: #ADCCFFA6;"> ML Grade = Passed.</m
 Then we now input our features and calculate for their probabilities independently. 
 
 $P(\text{ML Pass | Bad, }\geq{\text{4 hours}})= \frac{ P(\text{Bad} | \text{Passed}) \times P(\geq{\text{4 hours}} | Passed)\times P(Passed)}{P(\text{Bad, } \geq{\text{4 hrs}})}$
+
+
 So lets explain this one based on the earlier formula given
-The probability we want to see is <mark style="background: #ADCCFFA6;">if student will pass Machine Learning</mark> given that they are <mark style="background: #BBFABBA6;">bad at math </mark>and <mark style="background: #BBFABBA6;">studies for more than 4 hours</mark>.
+The probability we want to see is <mark style="background: #ADCCFFA6;">if student will pass Machine Learning</mark> given that they are <mark style="background: #BBFABBA6;">bad at math </mark>and <mark style="background: #BBFABBA6;">studies for more than 4 hours</mark>. 
+
+
+> [!NOTE] Truth Value
+> The truth value is literally just what are the unique labels of the prediction we want to predict. In this case, our label is ML Grade and the truth value are Passed and Failed.
+
 
 We get to find it by finding the independent probability of a student being bad at math given that they passed then the probability of THE SAME student studying more than or equal to 4 hours given that they passed. 
 
-Now let us plug in some numbers. 
+Now let us plug in some numbers to the parameters of our NB Model. 
 
-| **Student** | **Math Grade** | **Hours Studying**    | **ML Grade** |
-| ----------- | -------------- | --------------------- | ------------ |
-| 0           | Bad            | $\geq \text{4 hours}$ | passed       |
-| 1           | Good           | $\geq \text{4 hours}$ | passed       |
-| 2           | Bad            | $< \text{4 hours}$    | failed       |
-| 3           | Bad            | $\geq \text{4 hours}$ | passed       |
-| 4           | Good           | $\geq \text{4 hours}$ | passed       |
-| 5           | Bad            | $\geq \text{4 hours}$ | failed       |
-| 6           | Good           | $< \text{4 hours}$    | passed       |
-| 7           | Good           | $< \text{4 hours}$    | failed       |
-| 8           | Good           | $\geq \text{4 hours}$ | passed       |
-| 9           | Bad            | $\geq \text{4 hours}$ | failed       |
+| **Student** | **Math Grade** | **Hours Studying**    | **ML Grade**                                           |
+| ----------- | -------------- | --------------------- | ------------------------------------------------------ |
+| 0           | Bad            | $\geq \text{4 hours}$ | <mark style="background: #BBFABBA6;">passed</mark><br> |
+| 1           | Good           | $\geq \text{4 hours}$ | <mark style="background: #BBFABBA6;">passed</mark><br> |
+| 2           | Bad            | $< \text{4 hours}$    | <mark style="background: #FFF3A3A6;">failed</mark><br> |
+| 3           | Bad            | $\geq \text{4 hours}$ | <mark style="background: #BBFABBA6;">passed</mark>     |
+| 4           | Good           | $\geq \text{4 hours}$ | <mark style="background: #BBFABBA6;">passed</mark>     |
+| 5           | Bad            | $\geq \text{4 hours}$ | <mark style="background: #FFF3A3A6;">failed</mark><br> |
+| 6           | Good           | $< \text{4 hours}$    | <mark style="background: #BBFABBA6;">passed</mark>     |
+| 7           | Good           | $< \text{4 hours}$    | <mark style="background: #FFF3A3A6;">failed</mark><br> |
+| 8           | Good           | $\geq \text{4 hours}$ | <mark style="background: #BBFABBA6;">passed</mark>     |
+| 9           | Bad            | $\geq \text{4 hours}$ | <mark style="background: #FFF3A3A6;">failed</mark><br> |
+
+Step 1: Get the probability of the <mark style="background: #FFF3A3A6;">truth </mark>values.
+
+| **P(ML=Pass)** | <mark style="background: #BBFABBA6;">0.6</mark>     |
+| -------------- | --------------------------------------------------- |
+| **P(ML=Fail)** | <mark style="background: #FFF3A3A6;">0.4</mark><br> |
+
+| **GIVEN**  | **Grade = Good**                                       | **Grade = Bad**                                       | **Hours >= 4**                                              | **Hours < 4**                                            |
+| ---------- | ------------------------------------------------------ | ----------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------- |
+| **Passed** | (Grade is good given they Passed)<br><br>$\frac{4}{6}$ | (Grade is bad given they Passed)<br><br>$\frac{2}{6}$ | (Hours studied >= 4 given they passed)<br><br>$\frac{5}{6}$ | Hours studied < 4 given they passed<br><br>$\frac{1}{6}$ |
+| **Failed** | Grade is good given they Failed<br><br>$\frac{1}{4}$   | Grade is bad given they Failed<br><br>$\frac{3}{4}$   | Hours studied >= 4 given they failed<br><br>$\frac{2}{4}$   | Hours studied < 4<br><br><br>$\frac{2}{4}$               |
+6 is amount of people that passed, 4 is the amount of people that failed
+
+Step 2: It is now just plug and play with the equation shown earlier.
+
+###### ML Grade Passed
+$P(\text{ML Pass | Bad, }\geq{\text{4 hours}})= \frac{ P(\text{Bad} | \text{Passed}) \times P(\geq{\text{4 hours}} | Passed)\times P(Passed)}{P(\text{Bad, } \geq{\text{4 hrs}})}$
+$P(\text{ML Pass | Bad, }\geq{\text{4 hours}})= \frac{\left(  \frac{2}{6} \right) \times \left(  \frac{5}{6} \right)\times \left(  \frac{6}{10} \right)}{\frac{4}{10}}$
+$P(\text{ML Pass | Bad, }\geq{\text{4 hours}})= \frac{0.33 \times 0.83\times 0.6}{0.4}=0.4108$
+
+###### ML Grade Failed
+$P(\text{ML Fail | Bad, }\geq{\text{4 hours}})= \frac{ P(\text{Bad} | \text{Failed}) \times P(\geq{\text{4 hours}} | Failed)\times P(Failed)}{P(\text{Bad, } \geq{\text{4 hrs}})}$
+$P(\text{ML Fail | Bad, }\geq{\text{4 hours}})= \frac{ \frac{3}{4} \times \frac{2}{4}\times \frac{4}{10}}{\frac{4}{10}}$
+$P(\text{ML Pass | Bad, }\geq{\text{4 hours}})= \frac{0.75 \times 0.5\times 0.4}{0.4}=0.375$
+
+We choose the higher one. We do not even need to calculate for the denominator because they're going to be the same anyway. So after calculating for the numerator, you can predict. 
+
+The predicted answer is the higher valued decimal
+
+---
+## Probability Review (Continuous)
+
+![[Pasted image 20250409001759.png]]
+![[Pasted image 20250409001904.png]]
+
+> [!NOTE] Mean and Standard Deviation
+> $\mu = \frac{\Sigma x_{i}}{n}, \text{the sum of all observations divided by total number of observations}$
+> $\sigma = \sqrt{\frac{\Sigma(x_{i} - \mu)^2}{N}} , \text{the square root of the summation of each observation minus average then squared, divided by the toital number of observations}$
+
+Now the thing with continuous observations is that with the standard deviation, we can see values not exactly from 
+
+**Example**
+
+![[Pasted image 20250409003806.png]]
+
+So we have a total of 10 observations across the board. Then we just do the same thing of knowing how many passed, how failed. 
+
+| **P(ML = Pass)** | 0.6 |
+| ---------------- | --- |
+| **P(ML = Fail)** | 0.4 |
+Now let us try having a test instance of Math Grade is 3.5 and studies for 5 hours. 
+
+
+| **Given**  | **Grade = Good**                                                                                         | **Grade = Bad** |
+| ---------- | -------------------------------------------------------------------------------------------------------- | --------------- |
+| **Passed** | Mean and Std of Grade is Good (2.0 upwards) given that student passed<br>$\mu = 2.8$<br>$\sigma = 1.125$ |                 |
+| **Failed** |                                                                                                          |                 |
+
+^^ Hash out in the morning because I think it kinda doesnt make sense ^^ 
+
+---
+## Multinomial Naive Bayes
+
+- Problem: Determine whether an email is spam or not spam. 
+- Training Data: a collection of spam and non-spam (ham) emails.
+
+![[Pasted image 20250409012544.png]]
+![[Pasted image 20250409013106.png]]
+
+The classification is not spam but why? Because it is a use-case dependent. If you're going to be stringent with the probability values, its going to be likely that all are spam.
+
+So at the end of the day, because of how naive it is, need parin ng validation.
+
+---
+## Maximum A Posteriori Estimation (MAP)
+
+- Problem: If a certain feature value never appears for a given class, it will have 0. As much as possible, no 0
+
+If the test instance has a value / feature that falls into the 0 parameter, the probability is always 0, ignoring other features.
+
+**MAP** allows to inject a prior "belief" to the probabilities so probability is not automatically 0
+
+$\Theta_{MAP} = \frac{\alpha_{H} + \beta_{H} - 1}{\alpha_{H} + \beta_{H} - 1 + \alpha_{\tau} + \beta_{\tau} - 1}$
+
+$\beta_{H} \text{ and } \beta_{\tau}$ are hyperparameters. Usually they are set to $\beta_{H} = 2 \text{ and } \beta_{\tau}  =2$ or $\beta_{H}= 1 \text{ and } \beta_{\tau} =1$
+
+
+![[Pasted image 20250409013616.png]]
+
+
