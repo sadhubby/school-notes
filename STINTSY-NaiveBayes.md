@@ -63,6 +63,26 @@ $P(\text{ML =passed | MathGrade=Good}\cap\text{HoursStudying>=4})$
 The problems with this kind of approach is that you need to computer every possible combination.
 If you have 20 binary features for example, the computation is  $2^{20}$ which is equal to 1048576 possibilities.
 
+So now, we need an equation for independent events. If A and B are independent from each other:
+$P(A \cap B ) = P(A) \times P(B)$, 
+Otherwise:
+$P(A\cap B) = P(B | A)P(A)$ 
+If events are independent, the probability of those events all happening can just be the product of their individual probabilities
+
+Example of Independent Event: If you flip a fair coin two times, what is the probability that both flips result in heads? 0.5 x 0.5 = 0.25
+
+Example of Non-Independent Event: From a 100-day historical data in an unknown planet, it rained for 50 days (0.5 probability) and the ground was wet for 50 days (0.5 probability). What is the probability that it will be raining and at the same time the ground is wet
+0.5 x 0.5 does not make sense
+
+--- 
+
+![[Pasted image 20250408112026.png]]
+
+Using our formula earlier: $P(T | F) = \frac{P(T\cap F)}{P(F)}$
+![[Pasted image 20250408112225.png]]
+So to fully address this problem, we have this formula:
+
+**Bayes Rule**: $P(T | F) = \frac{P(F |T)P(T)}{P(F)}$
 
 
 
