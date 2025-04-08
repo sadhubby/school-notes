@@ -82,8 +82,73 @@ Using our formula earlier: $P(T | F) = \frac{P(T\cap F)}{P(F)}$
 ![[Pasted image 20250408112225.png]]
 So to fully address this problem, we have this formula:
 
+
 **Bayes Rule**: $P(T | F) = \frac{P(F |T)P(T)}{P(F)}$
 
+Expounding the Bayes Rule, we get this kind of formula
 
+$P(T|F) = \frac{P(X_{1}= \text{blank} \cap (X_{2}) = \text{blank} \dots X_{d} = \text{blank} | T) P(T)}{P(F)}$
 
+Are these events independent? $X_{1} =\text{blank} \cap X_{2} = \text{blank} \dots \cap X_{d} = \text{blank}$
 
+**A:** Technically, we cannot say that the features are independent of each other. I.e., some student can be more likely to get a good grade in math if they studied more 
+
+*HOWEVER*, we will just assume that the features are independent of each other. I.e., Getting a good grade in math is not because of studying more
+
+This is the principle of Naive Bayes. This is the Naive assumption that the features are independent of each other.
+
+---
+## Actually Naive Bayes 
+
+So now we edit the formula again to match the assumption. Again, we are just editing the formula slightly so that instead of the usual Bayes Rule which considers dependency, we make that naive assumption of independent features.
+
+$P(T | F) = \frac{P(X_{1} = \text{blank} | T) \times P(X_{2} = \text{blank} | T)\times\dots\times P(X_{d} = \text{blank} | T)\times P(T)}{P(F)}$
+
+We now just  compute the probability of the features <mark style="background: #ABF7F7A6;">independently</mark>
+Statistically speaking, this is wrong, but because of the naive assumption, we can still yield decent results.
+
+#### Example 
+
+| **Student** | **Math Grade** | **Hours Studying**    | **ML Grade** |
+| ----------- | -------------- | --------------------- | ------------ |
+| 0           | Bad            | $\geq \text{4 hours}$ | passed       |
+| 1           | Good           | $\geq \text{4 hours}$ | passed       |
+| 2           | Bad            | $< \text{4 hours}$    | failed       |
+| 3           | Bad            | $\geq \text{4 hours}$ | passed       |
+| 4           | Good           | $\geq \text{4 hours}$ | passed       |
+| 5           | Bad            | $\geq \text{4 hours}$ | failed       |
+| 6           | Good           | $< \text{4 hours}$    | passed       |
+| 7           | Good           | $< \text{4 hours}$    | failed       |
+| 8           | Good           | $\geq \text{4 hours}$ | passed       |
+| 9           | Bad            | $\geq \text{4 hours}$ | failed       |
+Let us try a test instance where we want to know what the outcome is when Math grade is <mark style="background: #BBFABBA6;">bad</mark> and hours studying is <mark style="background: #BBFABBA6;">>= 4</mark>
+
+So now we know two truths in regards to ML grade, that is the fact that there is Pass and Fail. So we will have two Naive Bayes formula, one for the truth that the student passed, and the other for the student failed.
+
+$P(\text{ML Pass | }  \text{Bad, }\geq{4})$
+$P(\text{ML Fail | } \text{Bad, }\geq{4})$
+
+So our Truth Value is<mark style="background: #ADCCFFA6;"> ML Grade = Passed.</mark> While the features we want to look at are <mark style="background: #BBFABBA6;">Math Grade</mark> and <mark style="background: #BBFABBA6;">Hours Studying. </mark>
+
+Then we now input our features and calculate for their probabilities independently. 
+
+$P(\text{ML Pass | Bad, }\geq{\text{4 hours}})= \frac{ P(\text{Bad} | \text{Passed}) \times P(\geq{\text{4 hours}} | Passed)\times P(Passed)}{P(\text{Bad, } \geq{\text{4 hrs}})}$
+So lets explain this one based on the earlier formula given
+The probability we want to see is <mark style="background: #ADCCFFA6;">if student will pass Machine Learning</mark> given that they are <mark style="background: #BBFABBA6;">bad at math </mark>and <mark style="background: #BBFABBA6;">studies for more than 4 hours</mark>.
+
+We get to find it by finding the independent probability of a student being bad at math given that they passed then the probability of THE SAME student studying more than or equal to 4 hours given that they passed. 
+
+Now let us plug in some numbers. 
+
+| **Student** | **Math Grade** | **Hours Studying**    | **ML Grade** |
+| ----------- | -------------- | --------------------- | ------------ |
+| 0           | Bad            | $\geq \text{4 hours}$ | passed       |
+| 1           | Good           | $\geq \text{4 hours}$ | passed       |
+| 2           | Bad            | $< \text{4 hours}$    | failed       |
+| 3           | Bad            | $\geq \text{4 hours}$ | passed       |
+| 4           | Good           | $\geq \text{4 hours}$ | passed       |
+| 5           | Bad            | $\geq \text{4 hours}$ | failed       |
+| 6           | Good           | $< \text{4 hours}$    | passed       |
+| 7           | Good           | $< \text{4 hours}$    | failed       |
+| 8           | Good           | $\geq \text{4 hours}$ | passed       |
+| 9           | Bad            | $\geq \text{4 hours}$ | failed       |
