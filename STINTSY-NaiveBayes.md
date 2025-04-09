@@ -110,7 +110,7 @@ Statistically speaking, this is wrong, but because of the naive assumption, we c
 T = Truth Value
 F = Features
 
-So every independent feature probability is $P(\text{Feature} = \text{Observation} | \text{Truth Value})$
+So every independent feature probability is $P(\text{Truth Value} | \text{Feature} = \text{Observation})$
 #### Example 
 
 | **Student** | **Math Grade** | **Hours Studying**    | **ML Grade** |
@@ -200,9 +200,13 @@ The predicted answer is the higher valued decimal
 
 > [!NOTE] Mean and Standard Deviation
 > $\mu = \frac{\Sigma x_{i}}{n}, \text{the sum of all observations divided by total number of observations}$
-> $\sigma = \sqrt{\frac{\Sigma(x_{i} - \mu)^2}{N}} , \text{the square root of the summation of each observation minus average then squared, divided by the toital number of observations}$
+> $\sigma = \sqrt{\frac{\Sigma(x_{i} - \mu)^2}{n-1}} , \text{the square root of the summation of each observation minus average then squared, divided by the toital number of observations}$
 
 Now the thing with continuous observations is that with the standard deviation, we can see values not exactly from 
+
+Then we will use a probability density function: 
+
+$pdf(x, \mu, \sigma) = \frac{1}{\sigma \sqrt{ 2\pi }}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}$
 
 **Example**
 
