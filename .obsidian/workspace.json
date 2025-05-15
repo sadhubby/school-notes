@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "8899e378057c1a79",
+        "id": "9465fb55037b386c",
         "type": "tabs",
         "children": [
           {
-            "id": "c2a6186dd4522b6e",
+            "id": "9bed3a272fbe8167",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Introduction to Cloud 101.md",
+                "file": "GEETHIC 05.15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to Cloud 101"
-            }
-          },
-          {
-            "id": "b734f43b0112cdb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSOPESY 05.14.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CSOPESY 05.14"
+              "title": "GEETHIC 05.15"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -181,8 +166,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -194,6 +179,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -203,12 +189,16 @@
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-kanban:Create new board": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b734f43b0112cdb1",
+  "active": "9bed3a272fbe8167",
   "lastOpenFiles": [
+    "Pasted image 20250515101102.png",
+    "GEETHIC 05.15.md",
+    "GERIZAL 05.08.md",
+    "GERIZAL - 05.05.md",
+    "GEETHIC - 05.05.md",
     "Pasted image 20250514083622.png",
     "Pasted image 20250514083041.png",
     "Pasted image 20250514082516.png",
@@ -219,16 +209,12 @@
     "Pasted image 20250514080854.png",
     "Pasted image 20250514080447.png",
     "Pasted image 20250514080207.png",
-    "Pasted image 20250514080200.png",
     "CSOPESY 05.14.md",
-    "Introduction to Cloud 101.md",
-    "DevOps 05.10.md",
     "STCLOUD 05.08.md",
-    "GEETHIC 05.08.md",
-    "GERIZAL 05.08.md",
     "STCLOUD - 05.05.md",
-    "GERIZAL - 05.05.md",
-    "GEETHIC - 05.05.md",
+    "Introduction to Cloud 101.md",
+    "GEETHIC 05.08.md",
+    "DevOps 05.10.md",
     "Year 3 - Term 2/STINTSY/STINTSY.md",
     "Year 3 - Term 3",
     "Year 3 - Term 2/STINTSY/STINTSY-NaiveBayes.md",
@@ -248,7 +234,6 @@
     "Year 3 - Term 2/SOLLPM1/SOLLPM1 - For Presentation.md",
     "Year 3 - Term 2/SOLLPM1/Collaboration and Co-Creation.md",
     "Year 3 - Term 2/SOLLPM1/Stages of Team Development.md",
-    "Year 3 - Term 2/SOLLPM1/CULTURE TYPES.md",
     "Year 3 - Term 2/SOLLPM1",
     "Year 3 - Term 2/DSGNPAT",
     "Year 3 - Term 2",
