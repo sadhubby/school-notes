@@ -4,17 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "0ff51f63ca78bbe3",
+        "id": "f7b1b0420fe626ea",
         "type": "tabs",
         "children": [
           {
-            "id": "aeee182f964ecd4a",
+            "id": "f73f6b3db3c6c8b9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": false
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (workspace.json)"
             }
           }
         ]
@@ -187,22 +190,33 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0569034f4fdc6f95",
+  "active": "f73f6b3db3c6c8b9",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Untitled.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "STSWENG 05.23.md",
+    "STCLOUD.md",
+    "STCLOUD 05.22.md",
+    "Pasted image 20250531083446.png",
+    "Pasted image 20250531081024.png",
+    "Pasted image 20250531080329.png",
+    "Pasted image 20250531075958.png",
+    "Pasted image 20250531075546.png",
+    "Pasted image 20250531075539.png",
+    "Pasted image 20250531074901.png",
+    "Pasted image 20250531074726.png",
+    "Pasted image 20250531074555.png",
+    "Pasted image 20250531074546.png",
+    "GEETHIC 05.15.md",
+    "GEETHIC - Z26 - 05.22.md",
+    "DevOps 05.24.md",
+    "CSOPESY 05.31.md",
     "CSOPESY 05.17.md",
     "CSOPESY 05.14.md",
     "STCLOUD 05.26.md",
-    "Pasted image 20250526190130.png",
-    "Pasted image 20250526185952.png",
-    "Pasted image 20250526185904.png",
-    "Pasted image 20250526185839.png",
     "STCLOUD 05.19.md",
-    "Pasted image 20250519190918.png",
-    "Pasted image 20250519190526.png",
-    "Pasted image 20250519190418.png",
-    "Pasted image 20250519185853.png",
-    "Pasted image 20250519185747.png",
-    "Pasted image 20250519185613.png",
     "GERIZAL 05.08.md",
     "STCLOUD 05.08.md",
     "STCLOUD - 05.05.md",
@@ -215,19 +229,9 @@
     "Year 3 - Term 3",
     "Year 3 - Term 2/STINTSY/STINTSY-NaiveBayes.md",
     "Year 3 - Term 2/DSGNPAT/Code Smells Part 2.md",
-    "Year 3 - Term 2/SOLLPM1/Practice.md",
     "Images",
-    "Year 3 - Term 2/STINTSY/STINTSY-DecisionTrees.md",
-    "Year 3 - Term 2/STINTSY/STINTSY-SVM.md",
-    "Year 3 - Term 2/STINTSY/STINTSY-EnsembleLearning.md",
-    "Year 3 - Term 2/DSGNPAT/DSGNPAT Review.md",
-    "Year 3 - Term 2/SOLLPM1/SOLLPM1-2-15.md",
-    "Year 3 - Term 2/DSGNPAT/DSGNPAT - 1-23.md",
-    "Year 3 - Term 2/DSGNPAT/DSGNPAT - 01-27.md",
-    "Year 3 - Term 2/DSGNPAT/DSGNPAT 1-16.md",
     "Year 3 - Term 2/STINTSY",
     "Year 3 - Term 2/STINTSY/Images",
-    "Year 3 - Term 2/SOLLPM1/SOLLPM1 - For Presentation.md",
     "Year 3 - Term 2/SOLLPM1",
     "Year 3 - Term 2/DSGNPAT",
     "Year 3 - Term 2",
