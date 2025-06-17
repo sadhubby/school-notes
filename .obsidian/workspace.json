@@ -67,10 +67,14 @@
             "id": "413cc9851e97c875",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CSOPESY -- IO Hardware.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "CSOPESY -- IO Hardware"
             }
           }
         ],
@@ -147,6 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CSOPESY -- IO Hardware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for CSOPESY -- IO Hardware"
             }
           },
           {
@@ -243,8 +248,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cd1858108593b5a0",
+  "active": "413cc9851e97c875",
   "lastOpenFiles": [
+    "CSOPESY -- IO Hardware.pdf",
+    "CSOPESY -- 3 Threads and Concurrency.pdf",
+    "CSOPESY -- 2 Processes.pdf",
+    "CSOPESY -- 2.1 Process IPC.pdf",
+    "CSOPESY -- 1 Introduction to Operating Systems.pdf",
+    "CSOPESY -- 3 Threads and Concurrency.md",
+    "CSOPESY -- 2.1 Process IPC.md",
+    "CSOPESY -- 2 Processes.md",
+    "CSOPESY -- 1 Introduction to Operating Systems.md",
+    "Year 3 - Term 3/CSOPESY 05.31.md",
+    "CSOPESY.md",
+    "Year 3 - Term 3/CSOPESY 05.17.md",
+    "Year 3 - Term 3/CSOPESY 05.14.md",
     "CSOPESY -- IO Hardware.md",
     "Pasted image 20250617133820.png",
     "Pasted image 20250617133357.png",
@@ -253,21 +271,13 @@
     "Pasted image 20250617132916.png",
     "Pasted image 20250617132740.png",
     "Pasted image 20250617132254.png",
-    "CSOPESY -- 2 Processes.md",
-    "CSOPESY -- 3 Threads and Concurrency.md",
     "Pasted image 20250617125422.png",
     "Pasted image 20250617124746.png",
-    "CSOPESY -- 1 Introduction to Operating Systems.md",
     "Pasted image 20250617102209.png",
     "Untitled.md",
-    "CSOPESY.md",
-    "CSOPESY -- 2.1 Process IPC.md",
-    "Year 3 - Term 3/CSOPESY 05.14.md",
     "Year 3 - Term 3",
     "Year 3 - Term 3/STCLOUD 05.26.md",
     "Year 3 - Term 3/STCLOUD 05.19.md",
-    "Year 3 - Term 3/CSOPESY 05.17.md",
-    "Year 3 - Term 3/CSOPESY 05.31.md",
     "SoLLDV1 06.07.md",
     "STCLOUD 06.03.md",
     "Year 3 - Term 3/STSWENG 05.23.md",
@@ -286,10 +296,6 @@
     "Year 3 - Term 2/STINTSY",
     "Year 3 - Term 2/STINTSY/Images",
     "Year 3 - Term 2/SOLLPM1",
-    "Year 3 - Term 2/DSGNPAT",
-    "Year 3 - Term 2",
-    "csg-work",
-    "Year 3 - Term 1",
     "CSARCH2/(5) Module 4/Excalidraw/Untitled.canvas"
   ]
 }
