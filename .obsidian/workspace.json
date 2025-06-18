@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSOPESY -- CPU Scheduling.md",
+                "file": "Year 3 - Term 3/STCLOUD - 05.05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSOPESY -- CPU Scheduling"
+              "title": "STCLOUD - 05.05"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "601063842f2e86a5",
@@ -194,6 +193,22 @@
   },
   "active": "aa30427f48b609bb",
   "lastOpenFiles": [
+    "Year 3 - Term 3/STCLOUD - 05.05.pdf",
+    "Year 3 - Term 3/STCLOUD 05.08.md",
+    "Year 3 - Term 3/STSWENG 05.23.md",
+    "Year 3 - Term 3/STCLOUD 05.26.md",
+    "Year 3 - Term 3/STCLOUD 05.26.pdf",
+    "Year 3 - Term 3/STCLOUD 05.22.md",
+    "Year 3 - Term 3/STCLOUD 05.22.pdf",
+    "Year 3 - Term 3/STCLOUD 05.19.md",
+    "Year 3 - Term 3/STCLOUD 05.19.pdf",
+    "Year 3 - Term 3/STCLOUD 05.08.pdf",
+    "Year 3 - Term 3/STCLOUD - 05.05.md",
+    "[LSCS PRE-ACTS] CLiP 2025.pdf",
+    "Year 3 - Term 3/STCLOUD.md",
+    "Year 3 - Term 3/STCLOUD.pdf",
+    "CSOPESY -- 1 Introduction to Operating Systems.md",
+    "CSOPESY -- CPU Scheduling.md",
     "CSOPESY -- CPU Scheduling.pdf",
     "Pasted image 20250618014647.png",
     "Pasted image 20250618014642.png",
@@ -205,41 +220,25 @@
     "Pasted image 20250618014602.png",
     "Pasted image 20250618014553.png",
     "Pasted image 20250618014543.png",
-    "CSOPESY -- CPU Scheduling.md",
     "CSOPESY -- IO Hardware.md",
-    "CSOPESY -- 1 Introduction to Operating Systems.md",
     "CSOPESY -- 2 Processes.md",
     "CSOPESY -- 3 Threads and Concurrency.md",
     "CSOPESY -- IO Hardware.pdf",
     "CSOPESY -- 3 Threads and Concurrency.pdf",
     "CSOPESY -- 2 Processes.pdf",
-    "CSOPESY -- 2.1 Process IPC.pdf",
-    "CSOPESY -- 1 Introduction to Operating Systems.pdf",
     "CSOPESY -- 2.1 Process IPC.md",
     "Year 3 - Term 3/CSOPESY 05.31.md",
     "CSOPESY.md",
     "Year 3 - Term 3/CSOPESY 05.17.md",
     "Year 3 - Term 3/CSOPESY 05.14.md",
     "Untitled.md",
-    "Year 3 - Term 3",
-    "Year 3 - Term 3/STCLOUD 05.26.md",
-    "Year 3 - Term 3/STCLOUD 05.19.md",
     "SoLLDV1 06.07.md",
     "STCLOUD 06.03.md",
-    "Year 3 - Term 3/STSWENG 05.23.md",
     "STSWENG 06.03.md",
     "Year 3 - Term 3/DevOps 05.24.md",
     "Year 3 - Term 3/Untitled 2.md",
     "Year 3 - Term 3/Untitled 1.md",
     "Year 3 - Term 3/Untitled.md",
-    "Year 3 - Term 3/GERIZAL 05.08.md",
-    "Year 3 - Term 3/STCLOUD.md",
-    "Year 3 - Term 3/GERIZAL - 05.05.md",
-    "Year 3 - Term 3/DevOps 05.10.md",
-    "Year 3 - Term 3",
-    "Images",
-    "Year 3 - Term 2/STINTSY",
-    "Year 3 - Term 2/STINTSY/Images",
     "CSARCH2/(5) Module 4/Excalidraw/Untitled.canvas"
   ]
 }
